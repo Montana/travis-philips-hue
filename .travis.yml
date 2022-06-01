@@ -1,3 +1,7 @@
 dist: jammy
-language: generic
-script: python3 "./hue.py"
+language:
+- python
+python:
+- '3.6'
+script:
+- "./hue.py"
