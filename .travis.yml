@@ -1,2 +1,3 @@
+dist: focal
 language: generic
 script: chmoud u+x ./hue.py
