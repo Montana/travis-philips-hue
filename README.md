@@ -1,6 +1,6 @@
 ## Usage
 
-This has basic functionality, if the Travis CI build passes, your Hue lights will turn green, if your Travis CI build fails it will turn red. 
+Sync the color of your build (red if failed, green if passing) with your Travis CI builds using your Philips Hue lights. Currently this has basic functionality, if the Travis CI build passes, your Hue lights will turn green, if your Travis CI build fails it will turn red. 
 
 ## TODO
 
