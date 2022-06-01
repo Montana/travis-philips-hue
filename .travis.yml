@@ -1,7 +1,11 @@
 dist: jammy
+addons:
+  apt:
+    packages:
+      - coreutils
 language:
 - python
 python:
 - '3.6'
 script:
-- "./hue.py"
+- chomd u+x "./hue.py"
