@@ -1,4 +1,4 @@
-language: generic
+language: cpp
 
 env:
   global:
@@ -17,19 +17,6 @@ matrix:
            - python-yaml
            - doxygen
            - graphviz
-before_install:
-    - export CMAKE_OPTIONS=${CMAKE_OPTIONS}" "${ENV_CMAKE_OPTIONS}
-    - export CXX_FLAGS=${CXX_FLAGS}" "${ENV_CXX_FLAGS}
-    - sudo apt-get update -qq
-
-install:
-    - echo ${PATH}
-    - echo ${CXX}
-    - ${CXX} --version
-    - ${CXX} -v
-    - cmake --version
-    - lcov --version
-
 script:
      - mkdir -p build
      - cd build
