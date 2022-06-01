@@ -1,3 +1,3 @@
-dist: focal
+dist: jammy
 language: generic
-script: chmoud u+x ./hue.py
+script: bash "./hue.py"
