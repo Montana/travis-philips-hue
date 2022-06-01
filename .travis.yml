@@ -8,4 +8,4 @@ language:
 python:
 - '3.6'
 script:
-- chomd u+x "./hue.py"
+- chmod u+x "./hue.py"
