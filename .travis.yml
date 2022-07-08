@@ -6,7 +6,7 @@ addons:
 language:
 - python
 python:
-- '3.6'
+- '3.9'
 script:
 - chmod u+x "./hue.py"
 - echo "light changing to {$BUILDSTATUS}"
