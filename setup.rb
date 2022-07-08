@@ -43,7 +43,7 @@ lights.each do |light|
   light.set_state alert: 'lselect'
   sleep 2
   light.set_state alert: 'none'
-  print "Would you like to setup '#{light.name}' to link to a repo on travis-ci.org? (y/n) : "
+  print "Would you like to setup '#{light.name}' to link to a repo on travis-ci.com? (y/n) : "
   STDOUT.flush
   answer = gets.chomp.downcase
   case answer
@@ -77,4 +77,3 @@ when 1
 else
   puts "#{monitored_lights.size} lights #{message}"
 end
-
